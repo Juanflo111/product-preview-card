@@ -17,20 +17,22 @@ body{
         flex-flow: row wrap;
         background-color: white;
         border-radius: 10px;
-        width:600px;               
+        width:600px;   
+        height: 450px;            
         .cont_img{            
             width: 50%; 
-            display: flex;          
+            display: flex; 
+            height: 100%;                 
             img{
-                width: 100%;
+                width: 100%;                         
                 border-top-left-radius: 10px;
                 border-bottom-left-radius: 10px;
             }
         }
         .cont_texto{
-            padding: 35px 32px;
+            padding: 32px 32px;
             width: 50%;
-            text-align: left;            
+            text-align: left;                   
             article{
                 h2{
                     font-family: 'Montserrat';
@@ -38,41 +40,47 @@ body{
                     font-size: 14px;
                     letter-spacing: 5px;
                     color: #6f6f77;
+                    margin: 0 0 27px 0;
                 }
                 h1{
                     text-align: left;
-                    font-size: 35px;
-                    line-height: 35px;
+                    font-size: 32px;
+                    line-height: 30px;
+                    margin: 0;
+                    color: #22292f;
                 }
                 p{
                     color: #6f6f77;
                     font-size: 14px;
                     font-family: 'Montserrat';
                     font-weight: 500; 
-                    line-height: 25px;               
+                    line-height: 25px;
+                    margin:27px 0 ;               
                 }
                     .precio{
                         display: flex;
                         flex-flow: row wrap;
                         justify-content: left;
                         align-items: center;
+                        margin-bottom: 32px;
                         p{
                             color:#3b7f68;
                             font-size: 30px;
                             font-family: 'Fraunces';
                             display: flex;
                             align-items: center;
+                            margin: 0;
                             span{
                                 padding-left: 20px;
                                 font-size: 14px;
-                                color: #878a8f;
+                                color: #3d8168;
                                 text-decoration: line-through;
                                 font-family: 'Montserrat';  
                             }
-                        }
+                        }   
                     }
                 .btn{
-                    background-color: #1a4031;
+                    background-color: #3d8168;
                     color: white;
                     display: flex;
                     justify-content: center;
@@ -96,9 +104,10 @@ body{
     .attribution{
         display: flex;
         flex-flow: row wrap;
-        padding: 50px;
+        padding: 25px;
+        width: 600px;
         p{
-            padding-left: 5px;
+            margin: 0 auto;
         }
     }
 }
